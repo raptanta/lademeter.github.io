@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Page Layout</title> 
+    <link rel="stylesheet" href="style.css"></link>
+	<style> 
+		.head1 { 
+			font-size:40px; 
+			color:#B8860B; 
+			font-weight:bold;
+            font-family: Georgia, 'Times New Roman', Times, serif ; 
+            margin-left: 17px ;
+        
+            
+		} 
+		.head2 { 
+			font-size:20px; 
+			margin-left:15px; 
+            margin-bottom:15px; 
+            color: #fff;
+            font-family: monospace;
+		} 
+		body { 
+            margin: 0 auto; 
+            background-image: url(https://d25tv1xepz39hi.cloudfront.net/2017-10-13/files/Coffee_Photography_10.jpg);
+			background-position:center; 
+            background-size: cover;
+            position: static; 
+            color: #fff
+		} 
+	
+		.menu { 
+			position: sticky; 
+			top: 0; 
+			background-color: #B8860B; 
+			padding:10px 0px 10px 0px; 
+			color:white; 
+			margin: 0 auto; 
+			overflow: hidden; 
+		} 
+		.menu a { 
+			float: left; 
+			color: white; 
+			text-align: center; 
+			padding: 14px 16px; 
+			text-decoration: none; 
+			font-size: 20px; 
+		} 
+		.menu-log { 
+			right: auto; 
+			float: right; 
+		} 
+		footer { 
+			width: 100%; 
+			bottom: 0px; 
+			background-color: #B8860B; 
+			color: #fff; 
+			position: fixed; 
+			padding-top:20px; 
+			padding-bottom:25px; 
+			text-align:center; 
+			font-size:20px; 
+			font-weight:bold; 
+		} 
+		.body_sec { 
+			margin-left:20px; 
+		} 
+	</style> 
+</head> 
+
+<body> 
+	<div class="container">
+	<!-- Header Section -->
+	<header> 
+		<div class="head1">La Demeter</div> 
+		<div class="head2">A Classic Coffee Marketplace</div> 
+	</header> 
+	
+	<!-- Menu Navigation Bar -->
+	<div class="menu"> 
+		<a href="#home">HOME</a> 
+		<a href="#productnews">PRODUCT</a> 
+		<a href="#theysaid">THEY SAID?</a> 
+		<div class="menu-log"> 
+			<a href="#cart">CART</a> 
+		</div> 
+	</div> 
+	
+    <!-- Body section -->
+	<div class = "body_sec"> 
+		<section id="Content"> 
+            <h3>The Arabica One</h3> 
+            <img class="gambar1" src="https://www.mongabay.co.id/wp-content/uploads/2019/07/EDUKASI-KOPI-JAMBUWER-11.jpg"  height="300px" width"500px";>
+        </section> 
+        <section id="Content">
+            <h3>The Robusta One</h3>
+            <img class="gambar2" src="https://tanameracoffee.com/wp-content/uploads/2017/06/03.jpg" height="300px" width"500px";>
+        </section>
+        <section></section>
+    </div> 
+	
+	<!-- Footer Section -->
+    <footer>Customer Service: 0853-8291-xxxx</footer> 
+    </div>
+</body> 
+</html>					 
